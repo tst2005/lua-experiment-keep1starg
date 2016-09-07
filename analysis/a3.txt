@@ -1,0 +1,13 @@
+
+main <solutions/a3.lua:0,0> (2 instructions at )
+0+ params, 2 slots, 1 upvalue, 1 local, 0 constants, 1 function
+	1	[4]	CLOSURE  	0 0	; 
+	2	[4]	RETURN   	0 1
+
+function <solutions/a3.lua:1,4> (5 instructions at )
+1 param, 3 slots, 1 upvalue, 2 locals, 1 constant, 0 functions
+	1	[2]	GETTABUP 	1 0 -1	; _ENV "x"
+	2	[2]	MOVE     	2 0
+	3	[2]	CALL     	1 2 2
+	4	[3]	RETURN   	1 2
+	5	[4]	RETURN   	0 1
