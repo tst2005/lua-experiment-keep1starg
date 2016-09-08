@@ -6,13 +6,13 @@ When a function return multiple arguments, how to do to keep only the first one 
 # Sample of the problem
 
 ```lua
-local function multiple(a) return a, 1, 2, 3 end
+local function multiple(a) return a, 2, 3 end
 
 local function foo(aa)
 	return multiple(aa)
 end
-print(foo("ok")) -- ok 1 2 3
--- we want only ok
+print(foo("bar")) -- bar 2 3
+-- I want only bar
 ```
 
 Solution 1
@@ -116,4 +116,4 @@ a5.lua  total:   7   instructions
 Conclusion
 ==========
 
-I
+I ... I forgot to write a conclusion
